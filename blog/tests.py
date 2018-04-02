@@ -33,7 +33,7 @@ class BlogTests(TestCase):
         self.assertEqual(f'{self.post.text}', 'Nice body content')
 
     def test_post_list_view(self):
-        response = self.client.get(reverse('home'))
+        response = self.client.get(reverse('index'))
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, 'Nice body content')
         self.assertTemplateUsed(response, 'home.html')
