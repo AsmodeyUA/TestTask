@@ -1,0 +1,10 @@
+{
+"mail_conf": 
+	{
+		"EMAIL_HOST": "mail.forever.in.net",
+        "EMAIL_HOST_USER": "test@forever.in.net",
+		"EMAIL_HOST_PASSWORD": "pass!123",
+		"DEFAULT_FROM_EMAIL": "test@forever.in.net"
+	},
+"url_for_login":"http://localhost/"
+}

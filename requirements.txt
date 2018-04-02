@@ -1,0 +1,4 @@
+django
+django-crispy-forms
+django_smtp_ssl
+django-registration
